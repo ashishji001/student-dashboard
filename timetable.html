@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="shortcut icon" href="logo.jpeg">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="">
+            <h2>Student Dashboard</h2>
+        </div>
+        <div class="navbar">
+            <a href="index.html">
+                <span class="material-icons-sharp">home</span>
+                <h3>Home</h3>
+            </a>
+            <a href="timetable.html" class="active" >
+                <span class="material-icons-sharp">today</span>
+                <h3>Time Table</h3>
+            </a>
+            <a href="exam.html">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Examination</h3>
+            </a>
+            <a href="attendence.html">
+                <span class="material-icons-sharp">summarize</span>
+                <h3>Attendence</h3>
+            </a>
+
+        </div>
+       
+        <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+        </div>
+
+    </header>
+
+    <main style="margin: 0;">
+        <div class="timetable active" id="timetable">
+            <div>
+                <span id="prevDay">&lt;</span>
+                <h2>Today's Timetable</h2>
+                <span id="nextDay">&gt;</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Subject Code</th>
+                        <th>Subject</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>8-9am</th>
+                        <th>23BCECCE3102</th>
+                        <th>DSA</th>
+
+                    <tr>
+                        <th>9-10am</th>
+                        <th>23BCECCE3103</th>
+                        <th>OS</th>
+                    </tr>
+                    <tr>
+                        <th>10-11am</th>
+                        <th>23BCECCE3101</th>
+                        <th>Web Technology</th>
+                    </tr>
+                    <tr>
+                        <th>11-12am</th>
+                        <th>23BCEECE3121</th>
+                        <th>TOC</th>
+                    </tr>
+                    <tr>
+                        <th>12-1am</th>
+                        <th>NA</th>
+                        <th>Lunch Break</th>
+                    </tr>
+                    <tr>
+                        <th>1-2am</th>
+                        <th>23BCEECE3111</th>
+                        <th>Software Engineering </th>
+                    </tr>
+                    <tr>
+                        <th>2-3am</th>
+                        <th>3BUVCCE3101</th>
+                        <th>Digital Marketing</th>
+                    </tr>
+
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
